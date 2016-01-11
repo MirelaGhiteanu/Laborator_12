@@ -20,6 +20,7 @@ int main ()
   B bar = foo;    // calls constructor
   bar = foo;      // calls assignment
   foo = bar;      // calls type-cast operator
+  cout <<B;
   return 0;
 }
 
